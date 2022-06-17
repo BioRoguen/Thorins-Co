@@ -1,0 +1,46 @@
+.header {
+    background-color: #1F2937;
+    color: antiquewhite;
+    display: flex;
+    
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.box1 {
+    background-color: #1F2937;
+    color: antiquewhite;
+    font-weight: extra-bold; 
+    display: flex;
+
+}
+
+.box1 img {
+    border-radius: 8px;
+    height: 50%;
+    width: 50%;
+}
+
+.box1 h1 {
+    font-size: 48px;
+}
+
+.box1 p {
+    font-size: 18px;
+
+}
+
+.box2 {
+
+
+}
+
+.box3 {
+
+}
+
+.footer {
+
+}
