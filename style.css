@@ -1,19 +1,33 @@
+
+
+a {
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;  
+}
+
 .header {
     background-color: #1F2937;
     color: antiquewhite;
-    order: 5;
-    
+    display: flex;
+    flex-grow: 1;
 }
 
-.header h1 {
-    font-size: 24px;
+.navigation {
+    background-color: #1F2937;
+    color:antiquewhite;
+    align-self: flex-start;
 }
 
 .box1 {
     background-color: #1F2937;
     color: antiquewhite;
     font-weight: extra-bold; 
-
 }
 
 .box1 img {
