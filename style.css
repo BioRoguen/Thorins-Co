@@ -1,7 +1,7 @@
 .header {
     background-color: #1F2937;
     color: antiquewhite;
-    display: flex;
+    order: 5;
     
 }
 
@@ -13,7 +13,6 @@
     background-color: #1F2937;
     color: antiquewhite;
     font-weight: extra-bold; 
-    display: flex;
 
 }
 
@@ -33,8 +32,11 @@
 }
 
 .box2 {
-
-
+    font-size: 18px;
+    color:#1F2937;
+    border-radius: 8px;
+    height: 75%;
+    width: 75%;
 }
 
 .box3 {
