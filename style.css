@@ -35,7 +35,8 @@ a {
     background-color: #1F2937;
     color: antiquewhite;
     font-weight: extra-bold; 
-    margin: 
+    display: flex
+    
 }
 
 .box1 img {
