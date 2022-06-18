@@ -18,8 +18,8 @@ a {
     display: flex;
     flex-grow: 1;
     padding-bottom: 40px;
-    padding-top: 20px;
-    padding-left: 15px;
+    padding-top: 31px;
+    padding-left: 30px;
     margin: 0px;
 }
 
@@ -28,21 +28,39 @@ a {
     color:antiquewhite;
     align-self: flex-start;
     padding-bottom: 69px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-right: 40px;
 }
+
+/*Website is awesome section */
 
 .box1 {
     background-color: #1F2937;
     color: antiquewhite;
     font-weight: extra-bold; 
-    display: flex
-    
+    display: flex;
+    flex-direction: row;
 }
 
-.box1 img {
+.awesome {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.awesome-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.awesome-img img {
     border-radius: 8px;
-    height: 50%;
-    width: 50%;
+    width: 100%;
 }
 
 .box1 h1 {
@@ -54,12 +72,24 @@ a {
 
 }
 
+/* Service Offered Section */
+
 .box2 {
     font-size: 18px;
     color:#1F2937;
-    border-radius: 8px;
-    height: 75%;
-    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.box2 p {
+    align-self: flex-end;
+}
+
+.box2 img {
+    height: 150px;
+    width: 150px;
 }
 
 .box3 {
